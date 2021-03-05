@@ -1,0 +1,92 @@
+#login
+{
+    position:fixed;
+    top: 130px;
+    left: 27%;
+}
+
+#register
+{
+    position:fixed;
+    top: 130px;
+    left: 27%;    
+}
+
+/*cashsl*/
+
+.cashsl
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 40px;
+}
+
+.cashsl .cashsl_entry
+{
+    padding-top: 30px;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-bottom: 40px;
+    background-color: darkmagenta;
+    display: grid;
+    grid-template-rows: repeat(30px,6);
+    gap: 16px;
+}
+
+.query_cashsl
+{
+    margin-left: 50px;
+    gap: 30px;
+    background-color: floralwhite;
+}
+
+.query_search h2
+{
+    margin-bottom: 20px;
+}
+
+.query_search div
+{
+    margin-bottom: 40px;
+}
+
+
+.query_table,
+.query_table_creditsl
+{
+    margin-top: 40px;
+}
+.query_table div
+{
+    height: 30px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 80px 120px 200px 80px 100px;
+    background-color: darkturquoise;
+    border-bottom: 1px solid black;
+    
+}
+.query_table_creditsl div
+{
+    height: 30px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 80px 120px 200px 80px 100px 80px 80px;
+    background-color: darkturquoise;
+    border-bottom: 1px solid black;
+}
+
+.query_table div div,
+.query_table_creditsl div div
+{
+    border-right:1px solid black ;
+    padding-left: 5px;
+}
+
+
+
+#home_wall
+{
+    margin-left: 300px;
+    
+}

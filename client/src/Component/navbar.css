@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-div
+{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    height: 100px;
+    background-color: rgb(156, 153, 147);
+    gap: 250px;
+}
+nav
+{
+    display: grid;
+    grid-template-columns:1fr 5fr 5fr 1fr ;
+    width: 350px;
+    column-gap: 50px;
+    font-size: 16px;
+    color: blue;
+    margin-top: 20px;
+}
+
+nav span
+{
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+
+nav span:hover
+{
+    color: crimson;
+}
+
+
+.main-title
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+
+select
+{
+    border: 0px;
+    outline: none;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    height: 20px;
+    background-color: rgb(156, 153, 147);
+    text-decoration: none;
+   width: 110px;
+    font-size: 17px;
+}
+
+select:hover
+{
+    color: crimson;
+}
+
+
